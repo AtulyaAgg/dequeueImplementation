@@ -50,8 +50,22 @@ The following operations are supported:
 3. The program provides an example where enqueue, dequeue, and element retrieval operations are executed in sequence. You can modify the executeOperations function to test other operations.
 
 ### Example Usage
+```
+    # Example of performing operations
+    executeOperations("enqueueAtRear", 10)
+    executeOperations("enqueueAtRear", 20)
+    executeOperations("enqueueAtFront", 5)
+    executeOperations("getAllElements")
+    executeOperations("deletionAtFront")
+    executeOperations("getAllElements")
+```
 
 ### Output Example
+```
+    5 10 20
+    Deleted element is: 5
+    10 20
+```
 
 ## Functions
 
