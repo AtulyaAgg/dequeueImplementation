@@ -37,7 +37,8 @@ The following operations are supported:
 
 ### Prerequisites
 1. Clone the repository:
-``` git clone https://github.com/your-username/dequeue-circular-queue.git
+```
+    git clone https://github.com/your-username/dequeue-circular-queue.git
     cd dequeue-circular-queue
 ```
 
