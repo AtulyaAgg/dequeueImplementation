@@ -33,8 +33,13 @@ The following operations are supported:
 7. **Get Rear**: Retrieve the rear element without removing it.
 
 ## How to Use
+-Python 3.x installed on your machine.
 
 ### Prerequisites
+1. Clone the repository:
+``` git clone https://github.com/your-username/dequeue-circular-queue.git
+    cd dequeue-circular-queue
+```
 
 ### Running the Code
 
