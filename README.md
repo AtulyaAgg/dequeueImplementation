@@ -33,16 +33,21 @@ The following operations are supported:
 7. **Get Rear**: Retrieve the rear element without removing it.
 
 ## How to Use
--Python 3.x installed on your machine.
 
 ### Prerequisites
+-Python 3.x installed on your machine.
+
+### Running the Code
 1. Clone the repository:
 ```
     git clone https://github.com/your-username/dequeue-circular-queue.git
     cd dequeue-circular-queue
 ```
-
-### Running the Code
+2. Open the code in a Python IDE or execute it via terminal/command prompt:
+```
+    python3 dequeue.py
+```
+3. The program provides an example where enqueue, dequeue, and element retrieval operations are executed in sequence. You can modify the executeOperations function to test other operations.
 
 ### Example Usage
 
