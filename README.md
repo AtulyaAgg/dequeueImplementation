@@ -68,7 +68,34 @@ The following operations are supported:
 ```
 
 ## Functions
+- `enqueueAtFront(num)`
+    Adds an element to the front of the dequeue. If the dequeue is full, it prints an error message.
+  
+- `enqueueAtRear(num)`
+    Adds an element to the rear of the dequeue. If the dequeue is full, it prints an error message.
+  
+- `deletionAtFront()`
+    Removes an element from the front of the dequeue and prints the deleted element.
+  
+- `deletionAtRear()`
+    Removes an element from the rear of the dequeue and prints the deleted element.
+  
+- `getAllElements()`
+    Prints all the elements currently in the dequeue from front to rear.
+  
+- `getFront()`
+    Displays the element at the front of the dequeue without removing it.
+  
+- `getRear()`
+    Displays the element at the rear of the dequeue without removing it.
 
 ## File Structure
 
+```
+.
+├── README.md            # Project overview and usage instructions
+└── dequeue.py           # Python implementation of dequeue using circular queue
+```
+
 ## Contributing
+Contributions are welcome! If you have suggestions or improvements, please feel free to open a pull request or file an issue.
